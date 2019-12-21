@@ -37,7 +37,7 @@ def main():
                               args.epochs,
                               args.gpu)
     else:
-        print('Please select a valid training model')
+        print('Only the following models are allowed as input: args = vgg16 or alexnet')
 
 # Call to get_input_args function to run the program
 if __name__ == "__main__":
